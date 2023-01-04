@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  header {
+    background-color: rgb(79, 79, 79);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  header a img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  header a span {
+    font-size: 18px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav li {
+    margin: 0 10px;
+  }
+  
+  header nav a {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .cart-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    flex: 1;
+  }
+  
+  .cart-price {
+    width: 80px;
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .cart-quantity {
+    width: 120px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-quantity-input {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .cart-total {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .cart-total span:first-of-type {
+    margin-right: 10px;
+  }
+
+  footer {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .btn {
+    display: inline-block;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-purchase {
+    background-color: #00b8d4;
+    color: #fff;
+  }
+  
+  .btn-purchase:hover {
+    background-color: #00a0b0;
+  }
+  
+  .btn-danger {
+    background-color: #e53935;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c62828;
+  }
+
+  .name {
+    color:rgb(4, 254, 154)
+  }
+
+  .header {
+    color:rgb(4, 254, 154)
+  }
+  .nav {
+    color:crimson
+  }
+
+  .bundle {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    header a {
+      margin-bottom: 20px;
+    }
+  
+    header nav {
+      margin-top: 20px;
+    }
+  }
